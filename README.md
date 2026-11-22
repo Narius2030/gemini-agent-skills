@@ -43,12 +43,9 @@ description: <when and why the agent should use this skill>
 
 Skills are discovered from the agent's skills directory. To install them globally, copy or symlink each skill folder into `~/.gemini/config/skills/`:
 
-```bash
+```shell
 # Symlink (edits in this repo take effect immediately)
-mkdir -p ~/.gemini/config/skills
-for d in */; do
-  ln -sfn "$PWD/${d%/}" ~/.gemini/config/skills/"${d%/}"
-done
+./install-skills.sh
 ```
 
 To pin a snapshot instead, use `cp -R <skill-folder> ~/.gemini/config/skills/`.
