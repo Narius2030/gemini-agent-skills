@@ -4,7 +4,7 @@ A collection of reusable **agent skills** for Google Antigravity / Gemini-based 
 
 The skills focus on correctness, data integrity, and safety for software and data-platform work. They share a few rules: understand the system before changing it, work from evidence, make focused changes, and never claim a check passed unless it actually ran.
 
-You can use via MCP on Agensi platform: https://www.agensi.io/skills/gemini-agent-engineering-skills
+You can connect MCP to use via Agensi platform: https://www.agensi.io/skills/gemini-agent-engineering-skills
 
 ## Skills
 
